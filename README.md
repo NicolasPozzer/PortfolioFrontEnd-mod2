@@ -1,2 +1,2 @@
 # PortfolioFrontend
-repositorio para el frontend
+repositorio para la maqueta Modulo 2
