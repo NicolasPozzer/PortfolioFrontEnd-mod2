@@ -2,9 +2,27 @@
 background-color: #74EBD5;background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
 }
 
-/*cambio de color al ubicar raton encima del login*/
-i.fa-regular.fa-user.fa-2xl:hover{
-color: darkgreen;
+/*COLORES LOGOS REDES*/
+
+/*USER LOGIN*/
+.fa-regular.fa-user.fa-2xl:hover{
+    color: darkgreen;
+}
+
+/*LINKEDIN*/
+.fa-brands.fa-linkedin.fa-2xl:hover{
+    color: rgb(7, 145, 209);
+}
+/*GITHUB*/
+.fa-brands.fa-github.fa-2xl:hover{
+    color:#d1d1d1;
+}
+
+/*INSTAGRAM*/
+.fa-brands.fa-instagram.fa-2xl:hover{
+    color: rgba(255, 0, 106, 0.397);
+
+
 }
 
 .list-group{
