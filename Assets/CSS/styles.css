@@ -114,6 +114,7 @@ background-color: #363636;background-image: linear-gradient(90deg, #535353 0%, #
 #columna-izquierda-experiencia{
     margin-top: 9rem;
     margin-left: 22rem;
+    
 }
 
 #columna-derecha-experiencia{
@@ -141,7 +142,38 @@ background-color: #363636;background-image: linear-gradient(90deg, #535353 0%, #
 
 #columna-derecha-educacion{
     margin-top: 25rem;
-    margin-right: 22rem;
+    margin-right: 20rem;
     margin-left: -24rem;
     
+}
+
+
+
+
+/*==========================*/
+/*Skills HABILIDADES*/
+/*==========================*/
+
+#habilidades-texto{
+    margin-top: 10rem;
+}
+
+#descripcion-habilidades{
+    margin-right: 35%;
+    margin-left: 35%;
+}
+
+
+
+/*==========================*/
+/*PROYECTOS*/
+/*==========================*/
+
+#proyectos-texto{
+    margin-top: 10rem;
+}
+
+#descripcion-proyectos{
+    margin-right: 35%;
+    margin-left: 35%;
 }
