@@ -1,8 +1,58 @@
-.navbar.navbar-expand-lg.bg-body-tertiary{
-background-color: #74EBD5;background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+/*==========================*/
+/*fuentes*/
+/*==========================*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
 }
 
+
+/*==========================*/
+/*Color NavBar*/
+/*==========================*/
+.navbar.navbar-expand-lg.bg-body-tertiary{
+background-color: #363636;background-image: linear-gradient(90deg, #535353 0%, #ffffff 100%);
+}
+
+
+/*==========================*/
+/*Carrousel*/
+/*==========================*/
+
+/*Texto sobre la Imagen*/
+.carousel-caption {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: white;
+  }
+/*Texto sobre el segundo slide que habia q modificarlo*/
+.carousel-caption-slide2{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: white;
+  }
+  /*TAMANO DEL CAROUSEL*/
+.carousel-inner{
+
+    max-height: 55rem;
+}
+
+
+  
+
+/*==========================*/
 /*COLORES LOGOS REDES*/
+/*==========================*/
 
 /*USER LOGIN*/
 .fa-regular.fa-user.fa-2xl:hover{
@@ -38,4 +88,57 @@ background-color: #74EBD5;background-image: linear-gradient(90deg, #74EBD5 0%, #
     /*SI QUEREMOS AGREGAR UNA IMAGEN UTILIZAMOS EL SIGUIENTE COMANDO
     background-image: url("/PortfolioFrontend/Assets/images/cascada-con-auroras-polares_3740x2104_xtrafondos.com.jpg");
     */
+}
+
+
+#sobre-mi{
+    margin-top: 3rem;
+    
+}
+
+.col-6{
+    color: black;
+}
+
+
+/*==========================*/
+/*SECCION EXPERIENCIA*/
+/*==========================*/
+#titulo-experiencia{
+    margin-top: 20rem;
+}
+
+#columna-izquierda-experiencia{
+    margin-top: 9rem;
+    margin-left: 22rem;
+}
+
+#columna-derecha-experiencia{
+    margin-top: 25rem;
+    margin-right: 20rem;
+    margin-left: -24rem;
+}
+
+
+
+/*==========================*/
+/*SECCION Educacion*/
+/*==========================*/
+
+#titulo-educacion{
+    margin-top: 10rem;
+}
+
+#columna-izquierda-educacion{
+    
+    margin-top: 9rem;
+    margin-left: 22rem;
+}
+
+
+#columna-derecha-educacion{
+    margin-top: 25rem;
+    margin-right: 22rem;
+    margin-left: -24rem;
+    
 }
