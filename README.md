@@ -1,4 +1,4 @@
-:star: PortfolioFrontend :star:
+# :star: PortfolioFrontend :star:
 
 
 Repositorio para la maqueta Modulo 2 Argentina Programa :space_invader:
