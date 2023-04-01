@@ -17,6 +17,7 @@ background-color: #363636;background-image: linear-gradient(90deg, #535353 0%, #
 }
 
 
+
 /*==========================*/
 /*Carrousel*/
 /*==========================*/
@@ -55,9 +56,17 @@ background-color: #363636;background-image: linear-gradient(90deg, #535353 0%, #
 /*==========================*/
 
 /*USER LOGIN*/
-.fa-regular.fa-user.fa-2xl:hover{
+.fa-solid.fa-user-lock.fa-2xl:hover{
     color: darkgreen;
 }
+
+/*USER LOGOUT*/
+.fa-solid.fa-user-gear.fa-2xl:hover{
+    color: darkgreen;
+}
+
+
+
 
 /*LINKEDIN*/
 .fa-brands.fa-linkedin.fa-2xl:hover{
@@ -83,7 +92,7 @@ background-color: #363636;background-image: linear-gradient(90deg, #535353 0%, #
 /*Color de fondo para ventana login*/
 .modal-content{
    /* */
-    background-color: #74EBD5;background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+    background-color: #c5c5c5;background-image: linear-gradient(90deg, #c5c5c5 0%, #c5c5c5 100%);
 
     /*SI QUEREMOS AGREGAR UNA IMAGEN UTILIZAMOS EL SIGUIENTE COMANDO
     background-image: url("/PortfolioFrontend/Assets/images/cascada-con-auroras-polares_3740x2104_xtrafondos.com.jpg");
@@ -176,4 +185,30 @@ background-color: #363636;background-image: linear-gradient(90deg, #535353 0%, #
 #descripcion-proyectos{
     margin-right: 35%;
     margin-left: 35%;
+}
+
+
+
+
+
+
+
+/*==========================*/
+/*Herramientas dashboard*/
+/*==========================*/
+
+/*LAPIZ Y TACHO DE BASURA*/
+#pencil-trash{
+    margin-left: 5rem;
+}
+
+
+/*lapiz COLOR*/
+.fa-solid.fa-pencil.fa-2xl:hover{
+    color: rgb(103, 109, 103);
+}
+
+/*BASURERO COLOR*/
+.fa-solid.fa-trash.fa-2xl:hover{
+    color: rgb(103, 109, 103);
 }
